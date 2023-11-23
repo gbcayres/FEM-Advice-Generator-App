@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Manrope:wght@600&family=Poppins:wght@300;400;600;700&family=Roboto&family=Satisfy&family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    /* primary */
+    --p-light-cyan: hsl(193, 38%, 86%);
+    --p-neon-green: hsl(150, 100%, 66%);
+    /* neutral */
+    --n-grayish-blue: hsl(217, 19%, 38%);
+    --n-dark-grayish-blue: hsl(217, 19%, 24%);
+    --n-dark-blue: hsl(218, 23%, 16%);
+
+    /* typography */
+    --quote-size: 24px;
+}

@@ -2,27 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/auxiliar.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="script.js" defer></script>
   <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
+  <div class="card">
+    <p class="advice-id">advice #117</p>
+    <p class="advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+    <picture class="divider">
+      <source media="(max-width: 460px)" srcset="assets/images/pattern-divider-mobile.svg">
+      <img src="assets/images/pattern-divider-desktop.svg" width="100%" alt="divider">
+    </picture>
+    <div class="dice-container">
+      <img class="dice-icon" src="assets/images/icon-dice.svg" width="100%" alt="dice-icon">
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">gbcayres</a>.
   </div>
 </body>
 </html>
