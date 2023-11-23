@@ -48,8 +48,14 @@ body {
     padding: 1.3rem;
 }
 
+.dice-container:hover {
+    background-color: hsl(150, 98%, 76%);
+    cursor: pointer;
+}
+
 .dice-icon {
     width: 25px;
+
 }
 
 @media (min-width: 465px) {
